@@ -49,26 +49,29 @@
 
 ## Arithmetic
 ```js
-    + - * / --> easy
-    **  --> Exponentiation (ES6)
-    ++  --> Postfix/Prefix Increment
-    --  --> Postfix/Prefix Decrement
-    %   --> Remainder
-    ()  --> Expression grouping (Priority)
-
-    Note: ++num   // increase before expressing
-            num++ // express, then increasing
++ - * / --> easy
+**  --> Exponentiation (ES6)
+++  --> Postfix/Prefix Increment
+--  --> Postfix/Prefix Decrement
+%   --> Remainder
+()  --> Expression grouping (Priority)
+/*
+Note: ++num   // increase before expressing
+        num++ // express, then increasing
+*/
 ```
 
 ## Comparison operators
 ```js
-	<   >   ==  !=  <=  >=  // easy
-    === // Strict equal (equal type and equal value)
-    !== // Strict unequal
+/*
+<   >   ==  !=  <=  >=      // easy
+===     // Strict equal (equal type and equal value)
+!==     // Strict unequal
+*/
 
-	1 > 3   // --> false
-    'Aardvark' < 'Zoroaster' // --> true
-    NaN == NaN  //	--> false
+1 > 3   // --> false
+'Aardvark' < 'Zoroaster' // --> true
+NaN == NaN  //	--> false
 ```
 
 
@@ -79,21 +82,21 @@
     `Ex: (1 + 2)`
 - Ternary : 3 values
 ```js
-    1st ? 2nd : 3rd
-    condition ? true : false
-    Ex: true ? 1 : 0;   // --> 1
-        false ? 1 : 0;  // --> 0
-        console.log(true ? 'yes' : 2);  // --> yes
+1st ? 2nd : 3rd
+condition ? true : false
+Ex: true ? 1 : 0;   // --> 1
+    false ? 1 : 0;  // --> 0
+    console.log(true ? 'yes' : 2);  // --> yes
 ```
 
 ## Logical operators
 ```js
-	&& -- and
-    || -- or
-    !  -- not
+&& -- and
+|| -- or
+!  -- not
 
-    Ex: 1 + 1 == 2 && 10 * 10 > 50  // --> true
-    Note:   NaN == NaN  // false
+Ex: 1 + 1 == 2 && 10 * 10 > 50  // --> true
+Note:   NaN == NaN  // false
 ```
 
 ## Automatic type conversion
@@ -103,16 +106,16 @@
 	        false   undefined   null    0 (numeric zero)    "" (empty string)   NaN (Not A Number)
 
 ```js
-    8 * null   // --> 0
-    "5" - 1    // --> 4
-    "5" + 1    // --> 51
-    "five" * 2     // --> NaN
-    false == 0     // --> true
-    null == undefined     // --> true
-    null == 0     // --> false
-    0 == false  // --> true
-    "" == false // --> true
-    "" === false        // --> false
+8 * null   // --> 0
+"5" - 1    // --> 4
+"5" + 1    // --> 51
+"five" * 2     // --> NaN
+false == 0     // --> true
+null == undefined     // --> true
+null == 0     // --> false
+0 == false  // --> true
+"" == false // --> true
+"" === false        // --> false
 ```
 
 ## Short-circuiting of logical operators
@@ -121,7 +124,7 @@
 
 ## typeof operator
 ```js
-	console.log(typeof "Hello");    // --> "string"
+console.log(typeof "Hello");    // --> "string"
 ```
 
 ## delete operator
@@ -142,4 +145,3 @@ https://www.sitepoint.com/automatic-type-conversion/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
 
 [delete-operator]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
-*/
