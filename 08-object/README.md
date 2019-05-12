@@ -46,14 +46,9 @@ delete obj['propertyName']
 - Property Attributes :
     - Every key of an object contains a set of property attributes that define the characteristics of the value associated with the key.
     - There are six property attributes:
-            [[Value]]
-            [[Get]]
-            [[Set]]
-            [[Writable]]
-            [[Enumerable]]
-            [[Configurable]]
+            `[[Value]]  [[Get]]     [[Set]]     [[Writable]]    [[Enumerable]]  [[Configurable]]`
 
-- Why have we wrapped the attribute names in [[]]? Double square brackets mark internal properties used by the ECMA specifications.
+- Why have we wrapped the attribute names in `[[]]`? Double square brackets mark internal properties used by the ECMA specifications.
 - These are properties that JS programmer cannot touch directly from within the code. 
 
 ## Flags
@@ -603,4 +598,3 @@ https://javascript.info/property-descriptors#sealing-an-object-globally
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
 https://toddmotto.com/typescript-setters-getter
-*/

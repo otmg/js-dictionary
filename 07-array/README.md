@@ -8,7 +8,7 @@
     - [II. Methods](#ii-methods)
   - [Array instances](#array-instances)
     - [I. Properties](#i-properties-1)
-    - [2. Methods](#2-methods)
+    - [II. Methods](#2-methods)
     - [`MUTATOR METHODS`](#mutator-methods)
     - [`ACCESSOR METHODS`](#accessor-methods)
     - [`ITERATION METHODS`](#iteration-methods)
@@ -93,7 +93,7 @@ Array(1, 2, 3);    // [1, 2, 3]
 **Array.prototype[@@unscopables]**
 - A symbol containing property names to exclude from a with binding scope.
 
-### 2. Methods
+### II. Methods
 ### `MUTATOR METHODS`
 These methods `modify` the array and return it:
 
