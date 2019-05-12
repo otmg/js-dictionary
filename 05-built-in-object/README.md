@@ -11,6 +11,7 @@
   - [Control abstraction objects](#control-abstraction-objects)
   - [Reflection](#reflection)
   - [Other](#other)
+  - [Do this in your browser console](#do-this-in-your-browser-console)
   - [References](#references)
 
 ![Built-in Object][built-in-object]
@@ -122,6 +123,7 @@ Proxy
 arguments
 ```
 
+## Do this in your browser console
 ```js
 Object.getOwnPropertyNames(Object);
 // (24) ["length", "name", "prototype", "assign", "getOwnPropertyDescriptor", "getOwnPropertyDescriptors", "getOwnPropertyNames", "getOwnPropertySymbols", "is", "preventExtensions", "seal", "create", "defineProperties", "defineProperty", "freeze", "getPrototypeOf", "setPrototypeOf", "isExtensible", "isFrozen", "isSealed", "keys", "entries", "values", "fromEntries"]
