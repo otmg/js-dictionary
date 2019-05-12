@@ -18,37 +18,39 @@
 ## Binding / Variables
 -	To catch and hold values, JavaScript provides a thing called a binding, or variable
 ```js
-    let const   var
+/*
+    keywords:   let const   var
+*/
 
-    var a = 1;
-    var a = 2;  // this's okay
-    let a = 3;  // Uncaught SyntaxError: Identifier 'a' has already been declared
-    const c;    // Uncaught SyntaxError: Missing initializer in const declaration
+var a = 1;
+var a = 2;  // this's okay
+let a = 3;  // Uncaught SyntaxError: Identifier 'a' has already been declared
+const c;    // Uncaught SyntaxError: Missing initializer in const declaration
 
-    const b = 12;   // primitive value
-    b = 5;  // Uncaught TypeError: Assignment to constant variable.
+const b = 12;   // primitive value
+b = 5;  // Uncaught TypeError: Assignment to constant variable.
 ```
 
 ## Scope
 Bindings declared with **let** and **const** are in fact **local** to the block that they are declared in, so if you create one of those inside of a loop, the code before and after the loop cannot “see” it.
 ```js
-	Ex 1:
-        const halve = function(n) {
-            return n / 2;   //  local binding
-        };
-        let n = 10; // global binding
-        console.log(halve(100));    // --> 50
-        console.log(n); // --> 10
+// Ex 1:
+const halve = function(n) {
+    return n / 2;   //  local binding
+};
+let n = 10; // global binding
+console.log(halve(100));    // --> 50
+console.log(n); // --> 10
 
-    Ex 2:
-        let x = 10;
-        if (true) {
-            let y = 20;
-            var z = 30;
-            console.log(x + y + z); // --> 60
-        }
-        // y is not visible here
-        console.log(x + z); // --> 40
+// Ex 2:
+let x = 10;
+if (true) {
+    let y = 20;
+    var z = 30;
+    console.log(x + y + z); // --> 60
+}
+// y is not visible here
+console.log(x + z); // --> 40
 ```
 
 ## The environment
@@ -57,63 +59,64 @@ The collection of bindings and their values that exist at a given time is called
 ## Flow of control
 -	Loops
 ```js
-	while (*condition*) {
-        // code block to be executed
-    }
+while (*condition*) {
+    // code block to be executed
+}
 
-    do {
-        // code block to be executed
-    } while (*condition*) 
+do {
+    // code block to be executed
+} while (*condition*) 
 
-    for (statement 1; statement 2; statement 3) {
-        // code block to be executed
-    }
-
-    Note: break;    // Breaking out of loop
-            continue;  // Continue looping
+for (statement 1; statement 2; statement 3) {
+    // code block to be executed
+}
+/*
+Note: break;    // Breaking out of loop
+        continue;  // Continue looping
+*/
 ```
 
 -	Condition execution
 ```js
-    if (*condition*) {
-        // code block to be executed // true
-    } else {
-        // code block to be executed // false
-    }
+if (*condition*) {
+    // code block to be executed // true
+} else {
+    // code block to be executed // false
+}
 ```
 
 -	Switch case
 ```js
-	switch (*condition*) {
-        case *value1*:
-            // code block to be executed
-            break;
-        case *value2*:
-            // code block to be executed
-            break;
-        default:
-            // code block to be executed
-            break;
-    }
+switch (*condition*) {
+    case *value1*:
+        // code block to be executed
+        break;
+    case *value2*:
+        // code block to be executed
+        break;
+    default:
+        // code block to be executed
+        break;
+}
 ```
 
 ## Hoisting
 ```js
-    var x = 5;
-    function run() {
-        console.log(x);   // output --> undefined
-        //
-        var x = 12;
-    }
-    run();
+var x = 5;
+function run() {
+    console.log(x);   // output --> undefined
+    //
+    var x = 12;
+}
+run();
 
-    var x = 5;
-    function run() {
-        console.log(x);
-        //
-        let x = 12;
-    }
-    run();  // Uncaught ReferenceError: x is not defined
+var x = 5;
+function run() {
+    console.log(x);
+    //
+    let x = 12;
+}
+run();  // Uncaught ReferenceError: x is not defined
 ```
 
 ## Side Effects
