@@ -1,6 +1,16 @@
-# The `this` keyword
+# 12. The `this` keyword
 
         The simple but extremely important keyword in your JavaScript code.
+
+  - [`this` in Global evironment](#this-in-global-evironment)
+  - [`this` inside functions](#this-inside-functions)
+  - [`this` inside constructors](#this-inside-constructors)
+  - [`this` in Methods](#this-in-methods)
+  - [call() and apply()](#call-and-apply)
+  - [bind()](#bind)
+  - [`this` inside arrow function](#this-inside-arrow-function)
+  - [`this` in classes](#this-in-classes)
+  - [References](#references)
 
 ## `this` in Global evironment
 Open a command terminal and run the node command.

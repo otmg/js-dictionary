@@ -2,6 +2,20 @@
 
         In JavaScript, regular experssion are also objects.
 
+* [Creating regular expressions](#creating-regular-expressions)
+* [Character groups](#character-groups)
+* [RegExp methods](#regexp-methods)
+* [Groups](#groups)
+* [Alternation](#alternation)
+* [Global and sticky](#global-and-sticky)
+* [Replacement and groups](#replacement-and-groups)
+* [Word boundary](#word-boundary)
+* [Greed](#greed)
+* [Dynamically creating RegExp objects](#dynamically-creating-regexp-objects)
+* [International characters](#international-characters)
+* [Advanced](#advanced)
+* [References](#references)
+
 ## Creating regular expressions
 - Literal — Syntax
 ```js

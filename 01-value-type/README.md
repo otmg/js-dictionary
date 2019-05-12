@@ -1,6 +1,12 @@
 # 01. Value - Type
 `EASY TO LEARN`
 
+  - [Data types](#data-types)
+  - [typeof operator](#typeof-operator)
+  - [Primitive and Reference type](#primitive-and-reference-type)
+  - [Primitive wrapper objects in JavaScript](#primitive-wrapper-objects-in-javascript)
+  - [References](#references)
+
 ## Data types
 -	Number
 ```js
@@ -69,7 +75,7 @@ The differences between primitive types and reference types is how they are stor
 
         var num = 12;
         function minusOne(val) {
-                val -= 1;
+            val -= 1;
         }
         minusOne(num);
         console.log(num);       // 12
@@ -88,10 +94,10 @@ The differences between primitive types and reference types is how they are stor
         console.log(arr === anotherArr);    // false
 
         var obj = {
-                a: 2,
-                c: {
-                        d:12
-                }
+            a: 2,
+            c: {
+                d:12
+            }
         };
 
         var refObj = obj.c;
@@ -105,5 +111,7 @@ The differences between primitive types and reference types is how they are stor
 
 ## References
 https://stackoverflow.com/questions/13266616/primitive-value-vs-reference-value
+
 https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+
 https://medium.com/@ctrlalt_diljeet/primitive-types-vs-reference-types-in-javascript-8503259c30ca

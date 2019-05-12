@@ -1,5 +1,18 @@
 # 05. Built-it Object
 
+  - [Value properties](#value-properties)
+  - [Function properties](#function-properties)
+  - [Fundamental objects](#fundamental-objects)
+  - [Numbers and dates](#numbers-and-dates)
+  - [Text processing](#text-processing)
+  - [Indexed collections](#indexed-collections)
+  - [Keyed collections](#keyed-collections)
+  - [Structured data](#structured-data)
+  - [Control abstraction objects](#control-abstraction-objects)
+  - [Reflection](#reflection)
+  - [Other](#other)
+  - [References](#references)
+
 ![Built-in Object][built-in-object]
 
 ## Value properties

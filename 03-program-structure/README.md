@@ -1,5 +1,14 @@
 # 03. Program structure
 
+  - [Expressions and Statements](#expressions-and-statements)
+  - [Binding / Variables](#binding--variables)
+  - [Scope](#scope)
+  - [The environment](#the-environment)
+  - [Flow of control](#flow-of-control)
+  - [Hoisting](#hoisting)
+  - [Side Effects](#side-effects)
+  - [References](#references)
+
 ## Expressions and Statements
 -	A fragment of code that produces a value is called an expression.
 -	An expression corresponds to a sentence fragment

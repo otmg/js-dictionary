@@ -1,5 +1,11 @@
 # 04. Function
 
+  - [Definition](#definition)
+  - [Defining](#defining)
+  - [Arguments](#arguments)
+  - [References](#references)
+
+
 ## Definition
 A function is a piece of program wrapped in a value.
 Executing a function is called **invoking**, **calling**, or **applying** it.

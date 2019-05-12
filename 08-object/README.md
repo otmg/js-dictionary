@@ -1,5 +1,23 @@
 # 08. Object
 
+  - [Object constructor](#object-constructor)
+  - [Deleting a property](#deleting-a-property)
+  - [Property attributes](#property-attributes)
+  - [Flags](#flags)
+  - [Accessor Properties (getter & setter)](#accessor-properties-getter--setter)
+  - [Iteration (Enumeration)](#iteration-enumeration)
+  - [Define a property and Change its flags](#define-a-property-and-change-its-flags)
+  - [Protecting objects](#protecting-objects)
+  - [Mutability](#mutability)
+  - [Clone a object](#clone-a-object)
+  - [The `Object` object](#the-object-object)
+    - [I. Properties](#i-properties)
+    - [II. Methods](#ii-methods)
+  - [Object instances and Object prototype object](#object-instances-and-object-prototype-object)
+    - [I. Properties](#i-properties-1)
+    - [II. Methods](#ii-methods-1)
+  - [References](#references)
+
 ## Object constructor
 - The Object constructor creates an object wrapper for the given value.
 - If the value is null or undefined, it will create and return an empty object, otherwise, it will return an object of a Type that corresponds to the given value.

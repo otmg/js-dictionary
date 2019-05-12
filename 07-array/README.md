@@ -2,6 +2,19 @@
 
 `typeof []    // "object"`
 
+  - [Clone an array](#clone-an-array)
+  - [The "Array" object](#the-%22array%22-object)
+    - [I. Properties](#i-properties)
+    - [II. Methods](#ii-methods)
+  - [Array instances](#array-instances)
+    - [I. Properties](#i-properties-1)
+    - [2. Methods](#2-methods)
+    - [`MUTATOR METHODS`](#mutator-methods)
+    - [`ACCESSOR METHODS`](#accessor-methods)
+    - [`ITERATION METHODS`](#iteration-methods)
+  - [References](#references)
+
+
 ## Clone an array
 - Shallow-cloning
 ```js

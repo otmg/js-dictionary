@@ -1,5 +1,20 @@
 # 06. String
 
+  - [Syntax](#syntax)
+  - [Escape notation](#escape-notation)
+  - [Long literal strings](#long-literal-strings)
+  - [String conversion](#string-conversion)
+  - [Distinction between string primitives and String objects](#distinction-between-string-primitives-and-string-objects)
+  - [Character access](#character-access)
+  - [String object](#string-object)
+    - [I. Properties](#i-properties)
+    - [II. Methods](#ii-methods)
+  - [String instances](#string-instances)
+    - [I. Properties](#i-properties-1)
+    - [II. Methods](#ii-methods-1)
+
+
+
 ## Syntax
     '' single quotes
     "" double quotes

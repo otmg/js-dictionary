@@ -1,5 +1,16 @@
 # 02. Operator
 
+  - [JavaScript Operator Precedence Values](#javascript-operator-precedence-values)
+  - [Arithmetic](#arithmetic)
+  - [Comparison operators](#comparison-operators)
+  - [Unary & Binary & Ternary](#unary--binary--ternary)
+  - [Logical operators](#logical-operators)
+  - [Automatic type conversion](#automatic-type-conversion)
+  - [Short-circuiting of logical operators](#short-circuiting-of-logical-operators)
+  - [typeof operator](#typeof-operator)
+  - [delete operator](#delete-operator)
+  - [References](#references)
+
 ## JavaScript Operator Precedence Values
 |	OPERATOR  |			NAME			|		EXAMPLE		|
 |:-----------:|:---------------------------:|:-------------:|

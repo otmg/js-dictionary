@@ -1,5 +1,14 @@
 # 09. Inheritance - Prototype chain
 
+  - [Object, Array, and Function](#object-array-and-function)
+  - [Class notation](#class-notation)
+  - [Function constructor](#function-constructor)
+  - [Object literals (Manually)](#object-literals-manually)
+  - [Inheritance && prototype chain](#inheritance--prototype-chain)
+  - [Method overriding](#method-overriding)
+  - [References](#references)
+
+
 ## Object, Array, and Function
 - JavaScript gives us access to three global functions: Object, Array, and Function. Yes, these are all functions.
 - First-class objects in JavaScript.
