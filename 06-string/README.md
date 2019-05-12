@@ -12,6 +12,7 @@
   - [String instances](#string-instances)
     - [I. Properties](#i-properties-1)
     - [II. Methods](#ii-methods-1)
+  - [References](#references) 
 
 
 
@@ -170,8 +171,8 @@ These properties are read-only.
 'Hello'.concat(' ', 'World!');  // 'Hello World!'
 ```
 
-**String.prototype.includes(*string*, *from*)
-- *from* at which to begin searching for *string***
+**String.prototype.includes(*string*, *from*)**
+- *from* at which to begin searching for *string*
 ```js
 'quangdatpham'.includes('atpha');   // true
 ```
@@ -181,14 +182,14 @@ These properties are read-only.
 'quangdatpham'.endsWith('ham'); // true
 ```
 
-**String.prototype.indexOf(*string*, *from*)
-- return -1 if not found**
+**String.prototype.indexOf(*string*, *from*)**
+- return -1 if not found
 ```js
 'quangdatpham'.indexOf('at', 4)  // 6
 ```
 
-**String.prototype.lastIndexOf(*string*, *from*)
-- return -1 if not found**
+**String.prototype.lastIndexOf(*string*, *from*)**
+- return -1 if not found
 ```js
 'quangdatpham'.lastIndexOf('a', 8); // 6
 ```
@@ -215,7 +216,7 @@ These properties are read-only.
 'quangdatpham'.padStart(15, '=');    // '===quangdatpham'
 ```
 
-**String.prototype.repeat(*times*)
+**String.prototype.repeat(*times*)**
 - RangeError: repeat count must be non-negative, less than infinity and not overflow maximum string size.**
 ```js
 'dat'.repeat(3);    // 'datdatdat'
@@ -230,8 +231,8 @@ These properties are read-only.
 });     // 'dat_123_!@#'
 ```
 
-**String.prototype.search(*RegExp*|*string*, *newString*|*function*) 
-- return -1 if not found**
+**String.prototype.search(*RegExp*|*string*, *newString*|*function*)**
+- return -1 if not found
 ```js
 'quangdat#pham$'.search(/[\W]/);    // 8
 ```
@@ -337,6 +338,7 @@ while(!theChar.done && theChar.value !== ' ') {
     //                  "e"
 }  
 ```
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
-*/
+## References
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
