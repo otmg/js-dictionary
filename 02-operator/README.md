@@ -103,6 +103,7 @@ Note:   NaN == NaN  // false
 -	JavaScript is a **loosely typed** language, which means that whenever an operator or statement is expecting a particular data-type, JavaScript will automatically convert the data to that type.
 -	JavaScript values are often referred to as being `truthy` or `falsy`, according to what the result of such a conversion would be (i.e. true or false).
 -	In fact there are only six falsy values:
+
 	        false   undefined   null    0 (numeric zero)    "" (empty string)   NaN (Not A Number)
 
 ```js

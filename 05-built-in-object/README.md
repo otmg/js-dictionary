@@ -1,4 +1,4 @@
-# 05. Built-it Object
+# 05. Built-in Object
 
   - [Value properties](#value-properties)
   - [Function properties](#function-properties)
