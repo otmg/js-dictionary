@@ -3,7 +3,7 @@
 ## Table of Content
 1. [Value-type](https://github.com/quangdatpham/js-dictionary/tree/master/01-value-type)
 1. [Operator](https://github.com/quangdatpham/js-dictionary/tree/master/02-operator)
-1. [Program structure](ttps://github.com/quangdatpham/js-dictionary/tree/master/03-program-structure)
+1. [Program structure](https://github.com/quangdatpham/js-dictionary/tree/master/03-program-structure)
 1. [Function](https://github.com/quangdatpham/js-dictionary/tree/master/04-function)
 1. [Built-in object](https://github.com/quangdatpham/js-dictionary/tree/master/05-built-in-object)
 1. [String](https://github.com/quangdatpham/js-dictionary/tree/master/06-string)
